@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalMatchingGame.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Button x:Name="SpillIgjenButton"
+                    Text="Vil du spille igjen?"
+                    FontSize="Large"
+                    Clicked="SpillIgjenButton_Clicked"/>
+            <Label x:Name="Tid"
+                   Text="Tid: 0.0 sekunder"
+                   FontSize="Large"/>
+
+            <FlexLayout x:Name="AnimalButtons"
+                        MaximumWidthRequest="400"
+                        Wrap="Wrap">
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="60"
+                        BackgroundColor="Hotpink"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
