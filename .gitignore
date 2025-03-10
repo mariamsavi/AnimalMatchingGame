@@ -1,0 +1,7 @@
+# Ignore build and debug folders
+bin/
+obj/
+
+# Ignore user-specific settings
+.vs/
+*.user
