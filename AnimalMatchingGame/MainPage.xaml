@@ -17,7 +17,8 @@
                     Text="Vil du spille igjen?"
                     FontSize="Large"
                     Clicked="SpillIgjenButton_Clicked"/>
-            <Label x:Name="Tid"
+
+            <Label x:Name="timeElapsedLabel"
                    Text="Tid: 0.0 sekunder"
                    FontSize="Large"/>
 

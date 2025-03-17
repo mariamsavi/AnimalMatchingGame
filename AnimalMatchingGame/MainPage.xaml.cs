@@ -30,8 +30,26 @@ public partial class MainPage : ContentPage
 			button.Text = nextEmoji;
 			AnimalEmoji.RemoveAt(index);
 		}
+		Dispatcher.StartTimer(TimeSpan.FromSeconds(.1), TimerTick);
 	}
 
+	int timeElapsed = 0;
+
+	private bool TimerTick()
+	{
+		if (!this.IsLoaded) return false;
+		timeElapsed++;
+
+		timeElapsedLabel.Text = "Tid: " + (timeElapsed / 10F).ToString("0.0s");
+
+		if (SpillIgjenButton.IsVisible)
+		{
+			timeElapsed = 0;
+			return false;
+
+		}
+		return true;
+	}
 	Button lastClicked;
 	bool findingMatch = false;
 	int matchesFound;
